@@ -151,4 +151,10 @@ live2d:
   #   # 是否使用一言
      hitokoto: true
 
-
+#hexo server 的配置
+server:
+  port: 4000
+  log: true
+  ip: 0.0.0.0
+  compress: true
+  cache: true
