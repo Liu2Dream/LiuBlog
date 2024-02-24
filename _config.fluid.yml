@@ -818,7 +818,7 @@ waline:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
   lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili','https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili','https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo','https://cdn.jsdelivr.net/gh/walinejs/emojis/qq','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-food','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-natural','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-object','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-people','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-sport','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-symbol','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-weather']
   dark: 'html[data-user-color-scheme="dark"]'
   wordLimit: 0
   pageSize: 10

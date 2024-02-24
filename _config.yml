@@ -150,3 +150,7 @@ live2d:
      enable: true
   #   # 是否使用一言
      hitokoto: true
+
+
+#启用Hexo-all-minifier
+all_minifier: true
