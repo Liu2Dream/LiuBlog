@@ -79,3 +79,8 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
     }
 
 ```
+
+
+![alt text](../img/bg/default.jpg)
+![alt text](../img/post/3gbizhiCom-1708800143.jpg)
+![alt text](../img/post/3gbizhiCom-1708800406.jpg)

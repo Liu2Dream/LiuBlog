@@ -152,5 +152,3 @@ live2d:
      hitokoto: true
 
 
-#启用Hexo-all-minifier
-all_minifier: true
