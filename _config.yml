@@ -151,14 +151,3 @@ live2d:
   #   # 是否使用一言
      hitokoto: true
 
-
-server:
-  port: 80
-  log: true 
-  ip: 0.0.0.0
-  compress: true
-  cache: true
-
-  serveStatic:
-    extensions:
-    - html
