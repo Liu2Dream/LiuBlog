@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 刘老师的个人博客
+subtitle: '这是一个副标题ヽ(￣▽￣)ﾉ'
+description: '你在看网站描述(灬°ω°灬) '
 keywords:
-author: John Doe
+author: Mr liu
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://www.liu2dream.fun/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -26,7 +26,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-code_dir: downloads/code
+code_dir: downloads/code 
 i18n_dir: :lang
 skip_render:
 
@@ -105,22 +105,51 @@ deploy:
   type: ''
 
 
-#live2d模型
+# #live2d模型
+# live2d:
+#   enable: true
+#   scriptFrom: local
+#   pluginRootPath: live2dw/
+#   pluginJsPath: lib/
+#   pluginModelPath: assets/
+#   tagMode: false
+#   debug: false
+#   model:
+#     use:  live2d-widget-model-hibiki  #  live2d-widget-model-wanko   live2d-widget-model-nito
+#   display:
+#     position: right
+#     width: 150
+#     height: 330
+#   mobile:
+#     show: false
+#   react:
+#     opacity: 0.7
+
 live2d:
   enable: true
-  scriptFrom: local
+ ### 推荐使用 jsdelivr 的 CDN 来加载
+  scriptFrom: jsdelivr
   pluginRootPath: live2dw/
   pluginJsPath: lib/
   pluginModelPath: assets/
   tagMode: false
   debug: false
   model:
-    use:  live2d-widget-model-hibiki  #  live2d-widget-model-wanko   live2d-widget-model-nito
+    # 推荐使用 CDN 来加载模型
+    use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json    #    nito  hibiki
   display:
     position: right
     width: 150
     height: 330
   mobile:
-    show: false
+    show: true
   react:
     opacity: 0.7
+  dialog:
+  #   # 是否开启对话框
+     enable: true
+  #   # 是否使用一言
+     hitokoto: true
+
+ 
+ 
