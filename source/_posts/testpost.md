@@ -1,7 +1,7 @@
 ---
 title: testpost
 date: 2024-02-23 23:39:00
-hide: true
+
 ---
 # 以下是hexo的 tag插件显示
 

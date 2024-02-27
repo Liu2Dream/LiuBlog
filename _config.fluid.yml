@@ -234,8 +234,7 @@ font:
 custom_js:
  
   - /js/click.js 
-  - /js/autoload.js
-  - /js/jquery.min.js
+
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
@@ -818,10 +817,11 @@ waline:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
   lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili']
+  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili','https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo','https://cdn.jsdelivr.net/gh/walinejs/emojis/qq','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-food','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-natural','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-object','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-people','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-sport','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-symbol','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-weather']
   dark: 'html[data-user-color-scheme="dark"]'
   wordLimit: 0
   pageSize: 10
+  
 
 # 畅言 Changyan
 # 基于第三方的服务

@@ -6,3 +6,6 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+_config_server.yml
+/_config_server.yml
+/_admin-config.yml
