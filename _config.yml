@@ -152,4 +152,8 @@ live2d:
      hitokoto: true
 
  
- 
+ # hexo-admin authentification
+admin:
+  username: username
+  password_hash: $2a$10$L.XAIqIWgTc5S1zpvV3MEu7/rH34p4Is/nq824smv8EZ3lIPCp1su
+  secret: 母亲薄怀芳

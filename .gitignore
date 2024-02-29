@@ -9,3 +9,5 @@ _multiconfig.yml
 _config_server.yml
 /_config_server.yml
 /_admin-config.yml
+/package-lock.json
+/package.json
