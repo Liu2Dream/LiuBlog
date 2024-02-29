@@ -20,4 +20,4 @@ date: 2024-02-23 23:39:00
 {% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
 引用文章的引用块Every interaction is both precious and an opportunity to delight.
 {% endblockquote %}
-![](../img/post/3gbizhiCom-1708858390.jpg)
+![](../img/post/Sample14.jpg)
