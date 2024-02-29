@@ -11,3 +11,4 @@ _config_server.yml
 /_admin-config.yml
 /package-lock.json
 /package.json
+/source/_drafts
