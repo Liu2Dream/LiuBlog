@@ -1,7 +1,8 @@
 ---
 title: testpost
 date: 2024-02-23 23:39:00
-
+sticky: 100
+index_img: ../img/post/pasted-1.png
 ---
 # 以下是hexo的 tag插件显示
 
