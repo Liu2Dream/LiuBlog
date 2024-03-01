@@ -5,6 +5,8 @@ sticky: 100
 index_img: ../img/post/pasted-1.png
 ---
 # 以下是hexo的 tag插件显示
+{% fold info @title %}
+需要折叠的一段内容，支持 markdown
 
 {% blockquote %}
 这是一个普通的引用块：Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
@@ -21,4 +23,6 @@ index_img: ../img/post/pasted-1.png
 {% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
 引用文章的引用块Every interaction is both precious and an opportunity to delight.
 {% endblockquote %}
-![alt text](../img/post/pasted-1.png)
+
+{% endfold %}
+![](../img/post/Sample14.jpg)
