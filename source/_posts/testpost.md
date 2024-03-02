@@ -1,6 +1,6 @@
 ---
 title: testpost
-index_img: /img/post/pasted-1.png
+index_img: /img/Sample14.jpg
 date: 2024-02-23 23:39:00
 sticky: 100
 
@@ -27,3 +27,5 @@ sticky: 100
 
 {% endfold %}
 ![](../img/post/Sample14.jpg)
+![alt text](../img/example.jpg)
+![alt text](../img/Sample14.jpg)
