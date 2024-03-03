@@ -26,6 +26,5 @@ sticky: 100
 {% endblockquote %}
 
 {% endfold %}
-![](../img/post/Sample14.jpg)
 ![alt text](../img/example.jpg)
 ![alt text](../img/Sample14.jpg)
