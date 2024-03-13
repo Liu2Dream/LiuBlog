@@ -241,6 +241,8 @@ custom_js:
 custom_css:
 
 
+custom_html:  '<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>'
+
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计
