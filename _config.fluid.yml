@@ -241,7 +241,7 @@ custom_js:
 custom_css:
 
 
-custom_html:  '<script src="https://fastly.jsdelivr.net/gh/liu2dream/live2d-widget@latest/autoload.js"></script>'
+custom_html:  '<script src="https://cdn.jsdelivr.net/gh/liu2dream/live2d-widget@latest/autoload.js"></script>'
 
 # 网页访问统计
 # Analysis of website visitors
