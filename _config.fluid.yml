@@ -241,7 +241,7 @@ custom_js:
 custom_css:
 
 
-custom_html:  '<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>'
+custom_html:  '<script src="https://fastly.jsdelivr.net/gh/liu2dream/live2d-widget@latest/autoload.js"></script>'
 
 # 网页访问统计
 # Analysis of website visitors
@@ -299,8 +299,7 @@ web_analytics:  # 网页访问统计
 # 对页面中的图片和评论插件进行懒加载处理，可见范围外的元素不会提前加载
 # Lazy loading of images and comment plugin on the page
 lazyload:
-  enable: true
-
+  enable: false
   # 加载时的占位图片
   # The placeholder image when loading
   loading_img: /img/loading.gif
