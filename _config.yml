@@ -126,7 +126,7 @@ deploy:
 #     opacity: 0.7
 
 live2d:
-  enable: true
+  enable: false
  ### 推荐使用 jsdelivr 的 CDN 来加载
   scriptFrom: jsdelivr
   pluginRootPath: live2dw/
@@ -152,8 +152,4 @@ live2d:
      hitokoto: true
 
  
- # hexo-admin authentification
-admin:
-  username: username
-  password_hash: $2a$10$L.XAIqIWgTc5S1zpvV3MEu7/rH34p4Is/nq824smv8EZ3lIPCp1su
-  secret: 母亲薄怀芳
+ 
