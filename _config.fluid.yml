@@ -449,9 +449,10 @@ footer:
     # ICP证号
     icp_text: 吉ICP备2024012670号
     # 公安备案号，不填则只显示ICP
-    police_text: X公网安备12345678号
+    police_text: 吉公网安备22060002000104号
+
     # 公安备案的编号，用于URL跳转查询
-    police_code: 12345678
+    police_code: 22060002000104
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
