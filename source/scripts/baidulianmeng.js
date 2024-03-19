@@ -1,0 +1,1 @@
+hexo.extend.injector.register('head_begin', '<meta name="baidu_union_verify" content="ce07df8f2b597b99b0b33e237b6f82a4">', 'default');
