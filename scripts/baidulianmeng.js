@@ -1,5 +1,5 @@
 hexo.extend.injector.register(
     'body_end', 
-    '<meta name="baidu_union_verify" content="3f24d6a838c890ccfd15c9198bfbeb51">', 
+    '<meta name="baidu_union_verify" content="d8cd046702c00c262efef3f5276134f3">', 
     'home'
 );
