@@ -53,7 +53,7 @@ Assets
     ├── Editor              TEngine-Editor程序集
     └── Runtime             TEngine-Runtime程序集
 ```
-# Tengine双端测试
+# Tengine双端测试[^1]
 
 1.在[Tengine--gitee](https://gitee.com/game-for-all_0/TEngine)官网clone一份项目库，切换到fantasy分支，然后在Unity2021.3以上的版本中，打开UnityProject文件夹。
 {% blockquote %}
@@ -96,4 +96,11 @@ Assets
 ## 文件服务器开启
 1.安装node.js,配置好npm环境变量（网上自己查）
 2.打开文件服务器目录，运行install.bat进行npm安装
-3.运行start.bat开启文件服务器
+3.新建AssetsRoot文件夹，在里面放入AB包生成的文件和GameScripts\Main\Launcher\Resources\AssetLoad\UpdataData.json文件
+{% blockquote %}
+UpdataData.json文件可以改变热更新的服务器地址和热更新显示方式，这样可以通过配置这个文件来实时更新配置
+{% endblockquote %}
+4.运行start.bat开启文件服务器
+
+
+[^1]: [Tengine快速入门](https://gitee.com/game-for-all_0/TEngine/blob/main/Books/1-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.md)
