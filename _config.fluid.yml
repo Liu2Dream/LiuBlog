@@ -214,12 +214,12 @@ color:
 
   # 按钮背景色
   # Color of button
-  button_bg_color: "transparent"
-  button_bg_color_dark: "transparent"
+  button_bg_color: "#D9EFFF"
+  button_bg_color_dark: "#46647e"
   # 按钮悬浮背景色
   # Color of button when hovering
   button_hover_bg_color: "#f2f3f5"
-  button_hover_bg_color_dark: "#46647e"
+  button_hover_bg_color_dark: "#13171E"
 
 # 主题字体配置
 # Font
@@ -695,7 +695,7 @@ post:
     enable: true
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
-    header: ''
+    header: '<h2>参考</h2>'
 
   # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见：https://hexo.fluid-dev.com/docs/guide/##latex-数学公式
   # Mathematical formula. If enable, you need to change the Markdown renderer, see: https://hexo.fluid-dev.com/docs/en/guide/#math
@@ -716,7 +716,7 @@ post:
   mermaid:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `mermaid: true`
     # If you want to use mermaid on the custom page, you need to set `mermaid: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `mermaid: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `mermaid: true` in Front-matter will enable mermaid, to load faster when the page does not contain mermaid
