@@ -3,6 +3,7 @@ title: Tengine基本使用（fantasy分支）
 date: 2024-04-05 00:31:56
 index_img: ../img/post/TengineLogo.png
 sticky: 100
+comment: false
 categories: 框架学习
 tags: 
  - Tengine
@@ -19,7 +20,7 @@ tags:
 2.框架也有商业项目正在使用，是经过验证的可靠方案，足以满足基本的商业需求。
 3.社群活跃，一个长期使用的项目来说，活跃的社群或社区是很重要的。
 ### 缺点
-由于整合了很多其他的框架或解决方案，所有在面对特殊需求时（如改变游戏框架底层逻辑、需要更可靠且高性能的网络等），就要更多的了解其中的部分源码来解决问题。本文章也由此应运而生。
+由于整合了很多其他的框架或解决方案，其中对应的版本问题存在一定的局限性，并且在面对特殊需求时（如改变游戏框架底层逻辑、需要更可靠且高性能的网络等），就要更多的了解其中的部分源码来解决问题。本文章也由此应运而生。
 
 
 {% fold info @Tengine的相关手册 %}
@@ -57,7 +58,7 @@ Assets
 ```
 # Tengine双端测试[^1]
 
-1.在[Tengine--gitee](https://gitee.com/game-for-all_0/TEngine)官网clone一份项目库，切换到fantasy分支，然后在Unity2021.3以上的版本中，打开UnityProject文件夹。
+1.在[Tengine--gitee](https://gitee.com/game-for-all_0/TEngine)官网clone一份项目库，切换到fantasy分支，然后在Unity2021.3以上的版本中，打开Tengine文件夹。
 {% blockquote %}
 需要注意的是，unity需要提前安装IL2cpp模块才能使用YooAsset、Hybridclr等功能
 {% endblockquote %}
