@@ -3,6 +3,7 @@ title: Tengine基本使用（fantasy分支）
 date: 2024-04-05 00:31:56
 index_img: ../img/post/TengineLogo.png
 sticky: 100
+comment: true
 categories: 框架学习
 tags: 
  - Tengine
