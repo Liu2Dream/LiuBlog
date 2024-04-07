@@ -814,15 +814,15 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 # waline:
-#   serverURL: 'https://waline.liu2dream.fun/'
-#   path: window.location.pathname
-#   meta: ['nick', 'mail', 'link']
-#   requiredMeta: ['nick']
-#   lang: 'zh-CN'
-#   emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili','https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo','https://cdn.jsdelivr.net/gh/walinejs/emojis/qq','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-food','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-natural','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-object','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-people','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-sport','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-symbol','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-weather']
-#   dark: 'html[data-user-color-scheme="dark"]'
-#   wordLimit: 0
-#   pageSize: 10
+   serverURL: 'https://waline.liu2dream.fun/'
+   path: window.location.pathname
+   meta: ['nick', 'mail', 'link']
+   requiredMeta: ['nick']
+   lang: 'zh-CN'
+   emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/bilibili','https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo','https://cdn.jsdelivr.net/gh/walinejs/emojis/qq','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-food','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-natural','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-object','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-people','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-sport','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-symbol','https://cdn.jsdelivr.net/gh/walinejs/emojis/tw-weather']
+   dark: 'html[data-user-color-scheme="dark"]'
+   wordLimit: 0
+   pageSize: 10
   
 
 # 畅言 Changyan
