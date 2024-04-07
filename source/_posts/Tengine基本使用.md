@@ -12,14 +12,15 @@ tags:
  - UniTask
  - Luban
 ---
-# 为什么使用Tengine？
 
+# 为什么使用Tengine？
 ### 优点
 1.Tengine是一款优秀的unity框架解决方案，该框架整合了GameFramework、fantasy、HybridCLR等优秀框架或解决方案为一体，使双端开发都变得简单友好。
 2.框架也有商业项目正在使用，是经过验证的可靠方案，足以满足基本的商业需求。
 3.社群活跃，一个长期使用的项目来说，活跃的社群或社区是很重要的。
 ### 缺点
 由于整合了很多其他的框架或解决方案，所有在面对特殊需求时（如改变游戏框架底层逻辑、需要更可靠且高性能的网络等），就要更多的了解其中的部分源码来解决问题。本文章也由此应运而生。
+
 
 {% fold info @Tengine的相关手册 %}
 [Tengine--gitee](https://gitee.com/game-for-all_0/TEngine)
@@ -30,6 +31,7 @@ tags:
 [UniTask异步方案](https://github.com/Cysharp/UniTask)
 [fantasy服务器框架](https://github.com/qq362946/Fantasy)
 {% endfold %}
+{% label info  @TEngine Version: 2023.04.31 %}
 
 # Tengine目录结构
 
