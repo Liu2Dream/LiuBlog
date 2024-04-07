@@ -55,7 +55,7 @@ Assets
 ```
 # Tengine双端测试[^1]
 
-1.在[Tengine--gitee](https://gitee.com/game-for-all_0/TEngine)官网clone一份项目库，切换到fantasy分支，然后在Unity2021.3以上的版本中，打开UnityProject文件夹。
+1.在[Tengine--gitee](https://gitee.com/game-for-all_0/TEngine)官网clone一份项目库，切换到fantasy分支，然后在Unity2021.3以上的版本中，打开Tengine文件夹。
 {% blockquote %}
 需要注意的是，unity需要提前安装IL2cpp模块才能使用YooAsset、Hybridclr等功能
 {% endblockquote %}
