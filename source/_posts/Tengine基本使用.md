@@ -107,3 +107,37 @@ UpdataData.json文件可以改变热更新的服务器地址和热更新显示�
 
 
 [^1]: [Tengine快速入门](https://gitee.com/game-for-all_0/TEngine/blob/main/Books/1-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.md)
+
+## 打包验证
+1.首次打包可以发现在框架内置debug窗口里可以看到下图内容
+
+![首次打包截图](../img/post/Tengine基本使用/{8D0456D9-B1C3-42e2-A875-0DA355EBC54A}.png)
+
+2.我们可以给输出日志增加一条来验证热更是否成功。在GameLogic文件夹里的GameApp.cs文件中添加一句打印日志的代码。
+```c#
+    public static void Entrance(object[] objects)
+    {
+        _hotfixAssembly = (List<Assembly>)objects[0];
+        Log.Warning("======= 看到此条日志代表你成功运行了热更新代码 =======");
+        Log.Warning("======= Entrance GameApp =======");
+        Log.Warning("======= 验证热更 =======");  //加一条日志验证
+        Instance.Init();
+        Instance.Start();
+        Utility.Unity.AddUpdateListener(Instance.Update);
+        Utility.Unity.AddFixedUpdateListener(Instance.FixedUpdate);
+        Utility.Unity.AddLateUpdateListener(Instance.LateUpdate);
+        Utility.Unity.AddDestroyListener(Instance.OnDestroy);
+        Utility.Unity.AddOnDrawGizmosListener(Instance.OnDrawGizmos);
+        Utility.Unity.AddOnApplicationPauseListener(Instance.OnApplicationPause);
+        GameModule.Procedure.RestartProcedure(new GameLogic.OnEnterGameAppProcedure());
+        Instance.StartGameLogic();
+    }
+```
+
+3.运行菜单 HybridCLR/Generate/All 重新生成dll，然后再运行菜单 BuildAssets And CopyTo AssemblyPath。
+
+4.重新构建AB，然后再把更新后的AB包上传到文件服务器里。
+
+5.打开之前打包的工程，查看是否处于热更模式，且代码更新成功
+![代码热更截图](../img/post/Tengine基本使用/{FB2CD6E6-9968-4190-A651-71B49471E3DF}.png)
+![代码更新截图](../img/post/Tengine基本使用/{B3CBB0A7-22A3-4822-B5D8-E55B6A1885FE}.png)
